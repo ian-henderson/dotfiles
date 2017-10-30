@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if ! [ -d $HOME/.config/fish ]; then
+    mkdir -p ~/.config/fish
+fi
+
+if [ -e $HOME/.config/fish/config.fish ]; then
+    rm $HOME/.config/fish/config.fish
+fi
+
+ln -s $PWD/config.fish $HOME/.config/fish

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -d $HOME/.vim ]; then
+    rm -rf $HOME/.vim
+fi
+ln -s $PWD/.vim $HOME
+
+if [ -e $HOME/.vimrc ]; then
+    rm $HOME/.vimrc
+fi
+ln -s $PWD/.vimrc $HOME

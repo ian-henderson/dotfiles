@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -d $HOME/.tmux ]; then
+  rm -rf $HOME/.tmux
+fi
+ln -s $PWD/.tmux $HOME
+
+if [ -e $HOME/.tmux.conf ]; then
+  rm $HOME/.tmux.conf
+fi
+ln -s $PWD/.tmux.conf $HOME

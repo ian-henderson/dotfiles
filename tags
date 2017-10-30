@@ -1,0 +1,897 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^    nmap . <Plug>(RepeatDot)$/;"	m
+0d_	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    norm 0d_$/;"	m
+<C-G>S	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^    imap      <C-G>S <Plug>ISurround$/;"	m
+<C-G>s	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^    imap      <C-G>s <Plug>Isurround$/;"	m
+<C-R>	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^    nmap <C-R> <Plug>(RepeatRedo)$/;"	m
+<C-S>	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^      imap    <C-S> <Plug>Isurround$/;"	m
+<Plug>(RepeatDot)	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^nnoremap <silent> <Plug>(RepeatDot)      :<C-U>exe repeat#run(v:count)<CR>$/;"	m
+<Plug>(RepeatRedo)	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^nnoremap <silent> <Plug>(RepeatRedo)     :<C-U>call repeat#wrap("\\<Lt>C-R>",v:count)<CR>$/;"	m
+<Plug>(RepeatUndo)	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^nnoremap <silent> <Plug>(RepeatUndo)     :<C-U>call repeat#wrap('u',v:count)<CR>$/;"	m
+<Plug>(RepeatUndoLine)	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^nnoremap <silent> <Plug>(RepeatUndoLine) :<C-U>call repeat#wrap('U',v:count)<CR>$/;"	m
+<Plug>AutoPairsReturn	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^imap <script> <Plug>AutoPairsReturn <SID>AutoPairsReturn$/;"	m
+<Plug>CSurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>CSurround  :<C-U>call <SID>changesurround(1)<CR>$/;"	m
+<Plug>Csurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>Csurround  :<C-U>call <SID>changesurround()<CR>$/;"	m
+<Plug>Dsurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>Dsurround  :<C-U>call <SID>dosurround(<SID>inputtarget())<CR>$/;"	m
+<Plug>ISurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^inoremap <silent> <Plug>ISurround  <C-R>=<SID>insert(1)<CR>$/;"	m
+<Plug>Isurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^inoremap <silent> <Plug>Isurround  <C-R>=<SID>insert()<CR>$/;"	m
+<Plug>SuperTabBackward	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  imap <script> <Plug>SuperTabBackward <c-r>=SuperTab('p')<cr>$/;"	m
+<Plug>SuperTabForward	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  imap <script> <Plug>SuperTabForward <c-r>=SuperTab('n')<cr>$/;"	m
+<Plug>SurroundRepeat	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>SurroundRepeat .$/;"	m
+<Plug>VSurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^vnoremap <silent> <Plug>VSurround  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>$/;"	m
+<Plug>VgSurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^vnoremap <silent> <Plug>VgSurround :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 0 : 1)<CR>$/;"	m
+<Plug>YSsurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>YSsurround :<C-U>call <SID>opfunc2(v:count1)<CR>$/;"	m
+<Plug>YSurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>YSurround  :<C-U>set opfunc=<SID>opfunc2<CR>g@$/;"	m
+<Plug>Yssurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>Yssurround :<C-U>call <SID>opfunc(v:count1)<CR>$/;"	m
+<Plug>Ysurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>Ysurround  :<C-U>set opfunc=<SID>opfunc<CR>g@$/;"	m
+<SID>AutoPairsReturn	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^inoremap <silent> <SID>AutoPairsReturn <C-R>=AutoPairsReturn()<CR>$/;"	m
+<c-x>	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  inoremap <silent> <c-x> <c-r>=<SID>ManualCompletionEnter()<cr>$/;"	m
+<cr>	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      inoremap <silent> <cr> <c-r>=<SID>SelectCompletion(1)<cr>$/;"	m
+<plug>(startify-open-buffers)	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^nnoremap <silent><plug>(startify-open-buffers) :<c-u>call startify#open_buffers()<cr>$/;"	m
+AlternatePair	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:AlternatePair()$/;"	f
+AsEmpty	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:AsEmpty()$/;"	f
+AutoPairsBackInsert	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsBackInsert()$/;"	f
+AutoPairsDelete	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsDelete()$/;"	f
+AutoPairsFastWrap	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsFastWrap()$/;"	f
+AutoPairsInit	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsInit()$/;"	f
+AutoPairsInsert	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsInsert(key)$/;"	f
+AutoPairsJump	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsJump()$/;"	f
+AutoPairsMap	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsMap(key)$/;"	f
+AutoPairsMoveCharacter	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsMoveCharacter(key)$/;"	f
+AutoPairsReturn	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsReturn()$/;"	f
+AutoPairsSpace	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsSpace()$/;"	f
+AutoPairsToggle	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsToggle()$/;"	f
+AutoPairsTryInit	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! AutoPairsTryInit()$/;"	f
+Balanced	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:Balanced(lnum)$/;"	f
+CSCOPE_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set CSCOPE_ARGS=%CSCOPE_ARGS% -R$/;"	v
+CSCOPE_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set CSCOPE_ARGS=%CSCOPE_ARGS% -i %TAGS_FILE%.files$/;"	v
+CSCOPE_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^set CSCOPE_ARGS=$/;"	v
+CSCOPE_EXE	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set CSCOPE_EXE=%~2$/;"	v
+CSCOPE_EXE	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^set CSCOPE_EXE=cscope$/;"	v
+CTAGS_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        set CTAGS_ARGS=%CTAGS_ARGS% --append "%UPDATED_SOURCE%"$/;"	v
+CTAGS_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        set CTAGS_ARGS=%CTAGS_ARGS% -L %TAGS_FILE%.files$/;"	v
+CTAGS_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% "%PROJECT_ROOT%"$/;"	v
+CTAGS_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% %~2$/;"	v
+CTAGS_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% --exclude=%2$/;"	v
+CTAGS_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% --options=%2$/;"	v
+CTAGS_ARGS	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set CTAGS_ARGS=$/;"	v
+CTAGS_EXE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_EXE=%~2$/;"	v
+CTAGS_EXE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set CTAGS_EXE=ctags$/;"	v
+CaptureKeyMap	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:CaptureKeyMap(key) " {{{$/;"	f
+CaptureKeyPresses	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:CaptureKeyPresses() " {{{$/;"	f
+ClosePreview	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:ClosePreview() " {{{$/;"	f
+CloseTagFun	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:CloseTagFun()$/;"	f
+CommandLineCompletion	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:CommandLineCompletion() " {{{$/;"	f
+CompilerSet	vim/.vim/bundle/vim-javascript/compiler/eslint.vim	/^  command! -nargs=* CompilerSet setlocal <args>$/;"	c
+CompletionMode	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:CompletionMode() " {{{$/;"	f
+CompletionReset	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:CompletionReset(char) " {{{$/;"	f
+ContextCompletion	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:ContextCompletion() " {{{$/;"	f
+ContextDiscover	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:ContextDiscover() " {{{$/;"	f
+ContextText	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:ContextText() " {{{$/;"	f
+Continues	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:Continues()$/;"	f
+DB_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set DB_FILE=%~2$/;"	v
+DB_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^set DB_FILE=cscope.out$/;"	v
+Declare	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^func! s:Declare(var, def)$/;"	f
+DoWhile	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:DoWhile()$/;"	f
+DoneParseArgs	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:DoneParseArgs$/;"	l
+DoneParseArgs	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:DoneParseArgs$/;"	l
+EnableJSX	vim/.vim/bundle/vim-jsx/ftdetect/javascript.vim	/^fu! <SID>EnableJSX()$/;"	f
+EnableLongestEnhancement	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:EnableLongestEnhancement() " {{{$/;"	f
+EnableNoCompleteAfterReset	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:EnableNoCompleteAfterReset() " {{{$/;"	f
+ExpandMap	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^function! s:ExpandMap(map)$/;"	f
+ExpandMap	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:ExpandMap(map) " {{{$/;"	f
+ExprCol	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:ExprCol()$/;"	f
+FILE_LIST_CMD	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set FILE_LIST_CMD=%~2$/;"	v
+FILE_LIST_CMD	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^set FILE_LIST_CMD=$/;"	v
+FILE_LIST_CMD	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set FILE_LIST_CMD=%~2$/;"	v
+FILE_LIST_CMD	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set FILE_LIST_CMD=$/;"	v
+FILE_LIST_CMD_IS_ABSOLUTE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set FILE_LIST_CMD_IS_ABSOLUTE=1$/;"	v
+FILE_LIST_CMD_IS_ABSOLUTE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set FILE_LIST_CMD_IS_ABSOLUTE=0$/;"	v
+FindTag	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:FindTag()$/;"	f
+FormatChunk	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^func! s:FormatChunk(open, close)$/;"	f
+GetJavascriptIndent	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function GetJavascriptIndent()$/;"	f
+GetJsxIndent	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^fu! GetJsxIndent()$/;"	f
+GetPair	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^  function s:GetPair(start,end,flags,skip)$/;"	f
+GutentagsToggleEnabled	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    command! GutentagsToggleEnabled :let g:gutentags_enabled=!g:gutentags_enabled$/;"	c
+GutentagsToggleFake	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    command! GutentagsToggleFake    :call gutentags#fake()$/;"	c
+GutentagsToggleTrace	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    command! GutentagsToggleTrace   :call gutentags#toggletrace()$/;"	c
+GutentagsUnlock	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^command! GutentagsUnlock :call gutentags#delete_lock_files()$/;"	c
+Handler	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:Handler(xml_tag, isHtml)$/;"	f
+HaveAtt	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:HaveAtt()$/;"	f
+Helptags	vim/.vim/autoload/pathogen.vim	/^command! -bar Helptags :call pathogen#helptags()$/;"	c
+HiLink	vim/.vim/bundle/vim-javascript/extras/flow.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	vim/.vim/bundle/vim-javascript/extras/flow.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+HiLink	vim/.vim/bundle/vim-javascript/extras/jsdoc.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	vim/.vim/bundle/vim-javascript/extras/jsdoc.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+HiLink	vim/.vim/bundle/vim-javascript/syntax/javascript.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	vim/.vim/bundle/vim-javascript/syntax/javascript.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+INDEX_WHOLE_PROJECT	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        set INDEX_WHOLE_PROJECT=0$/;"	v
+INDEX_WHOLE_PROJECT	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set INDEX_WHOLE_PROJECT=1$/;"	v
+Init	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:Init() " {{{$/;"	f
+InitBuf	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:InitBuf()$/;"	f
+InitBuffer	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:InitBuffer() " {{{$/;"	f
+Initial	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:Initial()$/;"	f
+IsBlock	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:IsBlock()$/;"	f
+IsContOne	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:IsContOne(cont)$/;"	f
+IsNoCompleteAfterReset	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:IsNoCompleteAfterReset() " {{{$/;"	f
+IsPreviewOpen	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:IsPreviewOpen() " {{{$/;"	f
+IsSwitch	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:IsSwitch()$/;"	f
+LOG_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set LOG_FILE=%~2$/;"	v
+LOG_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^if [%LOG_FILE%]==[] set LOG_FILE=CON$/;"	v
+LOG_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^set LOG_FILE=$/;"	v
+LOG_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set LOG_FILE=%~2$/;"	v
+LOG_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^if [%LOG_FILE%]==[] set LOG_FILE=CON$/;"	v
+LOG_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set LOG_FILE=$/;"	v
+LookingAt	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:LookingAt()$/;"	f
+LoopParseArgs	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:LoopParseArgs$/;"	l
+LoopParseArgs	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:LoopParseArgs$/;"	l
+ManualCompletionEnter	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:ManualCompletionEnter() " {{{$/;"	f
+Nat	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:Nat(int)$/;"	f
+OneScope	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:OneScope()$/;"	f
+PAUSE_BEFORE_EXIT	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set PAUSE_BEFORE_EXIT=1$/;"	v
+PAUSE_BEFORE_EXIT	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set PAUSE_BEFORE_EXIT=0$/;"	v
+POST_PROCESS_CMD	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set POST_PROCESS_CMD=%~2$/;"	v
+POST_PROCESS_CMD	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set POST_PROCESS_CMD=$/;"	v
+PROJECT_ROOT	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set PROJECT_ROOT=%~2$/;"	v
+PROJECT_ROOT	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set PROJECT_ROOT=$/;"	v
+PROJ_ROOT	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set PROJ_ROOT=%~2$/;"	v
+ParseArgs	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:ParseArgs$/;"	l
+ParseArgs	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:ParseArgs$/;"	l
+ParseCino	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:ParseCino(f)$/;"	f
+PreviousToken	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:PreviousToken()$/;"	f
+Pure	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:Pure(f,...)$/;"	f
+RegexpQuote	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^func! s:RegexpQuote(str)$/;"	f
+RegexpQuoteInSquare	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^func! s:RegexpQuoteInSquare(str)$/;"	f
+ReleaseKeyPresses	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:ReleaseKeyPresses() " {{{$/;"	f
+SClose	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^command! -nargs=0 -bar SClose call startify#session_close()$/;"	c
+SDelete	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^command! -nargs=? -bar -bang -complete=customlist,startify#session_list SDelete call startify#session_delete(<bang>0, <f-args>)$/;"	c
+SHELL	vim/.vim/bundle/supertab/Makefile	/^SHELL=\/bin\/bash$/;"	m
+SLoad	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^command! -nargs=? -bar -complete=customlist,startify#session_list SLoad   call startify#session_load(<f-args>)$/;"	c
+SSave	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^command! -nargs=? -bar -complete=customlist,startify#session_list SSave   call startify#session_save(<f-args>)$/;"	c
+SavePos	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:SavePos()$/;"	f
+SearchLoop	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:SearchLoop(pat,flags,expr)$/;"	f
+SelectCompletion	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    function! s:SelectCompletion(cr)$/;"	f
+SelectJavascript	vim/.vim/bundle/vim-javascript/ftdetect/javascript.vim	/^fun! s:SelectJavascript()$/;"	f
+SetCompletionType	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:SetCompletionType() " {{{$/;"	f
+SetDefaultCompletionType	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:SetDefaultCompletionType() " {{{$/;"	f
+ShowUsage	vim/.vim/bundle/vim-gutentags/plat/unix/update_scopedb.sh	/^ShowUsage() {$/;"	f
+ShowUsage	vim/.vim/bundle/vim-gutentags/plat/unix/update_tags.sh	/^ShowUsage() {$/;"	f
+SkipFunc	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:SkipFunc()$/;"	f
+SourceFlowSyntax	vim/.vim/bundle/vim-javascript/ftdetect/javascript.vim	/^fun! s:SourceFlowSyntax()$/;"	f
+StartCompletionMode	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:StartCompletionMode() " {{{$/;"	f
+Startify	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^command! -nargs=0 -bar Startify noautocmd enew | call startify#insane_in_the_membrane()$/;"	c
+StartifyDebug	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^command! -nargs=0 -bar StartifyDebug call startify#debug()$/;"	c
+SuperTab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! SuperTab(command) " {{{$/;"	f
+SuperTabAlternateCompletion	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! SuperTabAlternateCompletion(type) " {{{$/;"	f
+SuperTabChain	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! SuperTabChain(completefunc, completekeys, ...) " {{{$/;"	f
+SuperTabCodeComplete	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! SuperTabCodeComplete(findstart, base) " {{{$/;"	f
+SuperTabHelp	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    command SuperTabHelp :call <SID>SuperTabHelp()$/;"	c
+SuperTabHelp	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:SuperTabHelp() " {{{$/;"	f
+SuperTabLongestHighlight	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! SuperTabLongestHighlight(dir) " {{{$/;"	f
+SuperTabSetCompletionType	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! SuperTabSetCompletionType(type) " {{{$/;"	f
+SuperTabSetDefaultCompletionType	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! SuperTabSetDefaultCompletionType(type) " {{{$/;"	f
+SynAt	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:SynAt(l,c)$/;"	f
+SynAttrXMLish	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^fu! SynAttrXMLish(synattr)$/;"	f
+SynEOL	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^fu! SynEOL(lnum)$/;"	f
+SynJSXBlockEnd	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^fu! SynJSXBlockEnd(syns)$/;"	f
+SynJSXContinues	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^fu! SynJSXContinues(cursyn, prevsyn)$/;"	f
+SynJSXDepth	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^fu! SynJSXDepth(syns)$/;"	f
+SynSOL	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^fu! SynSOL(lnum)$/;"	f
+SynXMLish	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^fu! SynXMLish(syns)$/;"	f
+SyntaxCheckers_fish_fish_GetLocList	vim/.vim/bundle/vim-fish/syntax_checkers/fish/fish.vim	/^function! SyntaxCheckers_fish_fish_GetLocList() dict$/;"	f
+TAGS_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set TAGS_FILE=%~2$/;"	v
+TAGS_FILE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set TAGS_FILE=tags$/;"	v
+TagName	vim/.vim/bundle/vim-closetag/plugin/closetag.vim	/^fun! s:TagName(from)$/;"	f
+TestSuperTabCodeComplete	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! TestSuperTabCodeComplete(findstart, base) " {{{$/;"	f
+Token	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:Token()$/;"	f
+U	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^    nmap U <Plug>(RepeatUndoLine)$/;"	m
+UPDATED_SOURCE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set UPDATED_SOURCE=%~2$/;"	v
+UPDATED_SOURCE	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set UPDATED_SOURCE=$/;"	v
+Unlock	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:Unlock$/;"	l
+Usage	vim/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:Usage$/;"	l
+Usage	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:Usage$/;"	l
+WillComplete	vim/.vim/bundle/supertab/plugin/supertab.vim	/^function! s:WillComplete(...) " {{{$/;"	f
+_fatal_error_abort	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^_fatal_error_abort() {$/;"	f
+_handleOldOptions	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:_handleOldOptions() abort$/;"	f
+_has_emacs_mode_keys	tmux/.tmux/plugins/tpm/scripts/helpers/tmux_echo_functions.sh	/^_has_emacs_mode_keys() {$/;"	f
+_manual_expansion	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^_manual_expansion() {$/;"	f
+_sourced_files	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^_sourced_files() {$/;"	f
+_tmux_conf_contents	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^_tmux_conf_contents() {$/;"	f
+_tpm_path	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^_tpm_path() {$/;"	f
+add_db	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! s:add_db(db_file) abort$/;"	f
+b:SuperTabContextTextMemberPatterns	vim/.vim/bundle/supertab/ftplugin/html.vim	/^  let b:SuperTabContextTextMemberPatterns = ['<\/']$/;"	v
+b:SuperTabContextTextMemberPatterns	vim/.vim/bundle/supertab/ftplugin/xml.vim	/^  let b:SuperTabContextTextMemberPatterns = ['<\/']$/;"	v
+b:SuperTabContextTextOmniPrecedence	vim/.vim/bundle/supertab/ftplugin/html.vim	/^    let b:SuperTabContextTextOmniPrecedence = ['&omnifunc', '&completefunc']$/;"	v
+b:SuperTabContextTextOmniPrecedence	vim/.vim/bundle/supertab/ftplugin/xml.vim	/^  let b:SuperTabContextTextOmniPrecedence = ['&omnifunc', '&completefunc']$/;"	v
+b:current_syntax	vim/.vim/bundle/vim-fish/syntax/fish.vim	/^let b:current_syntax = 'fish'$/;"	v
+b:current_syntax	vim/.vim/bundle/vim-javascript/syntax/javascript.vim	/^let b:current_syntax = "javascript"$/;"	v
+b:current_syntax	vim/.vim/bundle/vim-jsx/after/syntax/jsx.vim	/^  let b:current_syntax=s:current_syntax$/;"	v
+b:current_syntax	vim/.vim/bundle/vim-startify/syntax/startify.vim	/^let b:current_syntax = 'startify'$/;"	v
+b:did_indent	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let b:did_indent = 1$/;"	v
+b:did_indent	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^  let b:did_indent=s:did_indent$/;"	v
+b:endwise_addition	vim/.vim/bundle/vim-fish/ftplugin/fish.vim	/^let b:endwise_addition = 'end'$/;"	v
+b:endwise_syngroups	vim/.vim/bundle/vim-fish/ftplugin/fish.vim	/^let b:endwise_syngroups = 'fishKeyword,fishConditional,fishRepeat'$/;"	v
+b:endwise_words	vim/.vim/bundle/vim-fish/ftplugin/fish.vim	/^let b:endwise_words = 'begin,function,if,switch,while,for'$/;"	v
+b:html_indent_script1	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let b:html_indent_script1 = 'inc'$/;"	v
+b:jsx_js_indentexpr	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^let b:jsx_js_indentexpr = &indentexpr$/;"	v
+b:match_ignorecase	vim/.vim/bundle/vim-jsx/after/ftplugin/jsx.vim	/^  let b:match_ignorecase = 0$/;"	v
+b:match_words	vim/.vim/bundle/vim-fish/ftplugin/fish.vim	/^let b:match_words =$/;"	v
+b:match_words	vim/.vim/bundle/vim-jsx/after/ftplugin/jsx.vim	/^  let b:match_words = '(:),\\[:\\],{:},<:>,' .$/;"	v
+b:startify	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^    let b:startify.entry_number += 1$/;"	v
+b:syng_str	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let b:syng_str = get(b:,'syng_str','string\\|template\\|special')$/;"	v
+b:syng_strcom	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let b:syng_strcom = get(b:,'syng_strcom','string\\|comment\\|regex\\|special\\|doc\\|template\\%(braces\\)\\@!')$/;"	v
+b:undo_ftplugin	vim/.vim/bundle/vim-javascript/after/ftplugin/javascript.vim	/^  let b:undo_ftplugin .= ' | setlocal iskeyword< suffixesadd<'$/;"	v
+b:undo_ftplugin	vim/.vim/bundle/vim-javascript/after/ftplugin/javascript.vim	/^  let b:undo_ftplugin = 'setlocal iskeyword< suffixesadd<'$/;"	v
+b:undo_indent	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let b:undo_indent = 'setlocal indentexpr< smartindent< autoindent< indentkeys<'$/;"	v
+beep	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:beep()$/;"	f
+cS	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap cS  <Plug>CSurround$/;"	m
+cache_project_root	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:cache_project_root(path) abort$/;"	f
+cd_to_vcs_root	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:cd_to_vcs_root(path) abort$/;"	f
+changesurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:changesurround(...) " {{{1$/;"	f
+check_binding_defined	tmux/.tmux/plugins/tpm/tests/test_plugin_sourcing.sh	/^check_binding_defined() {$/;"	f
+check_dir_exists_helper	tmux/.tmux/plugins/tpm/tests/helpers/tpm.sh	/^check_dir_exists_helper() {$/;"	f
+check_tpm_path	tmux/.tmux/plugins/tpm/tests/test_plugin_sourcing.sh	/^check_tpm_path() {$/;"	f
+check_user_options	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:check_user_options(path) abort$/;"	f
+clean_plugins	tmux/.tmux/plugins/tpm/scripts/clean_plugins.sh	/^clean_plugins() {$/;"	f
+clear_matches	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! s:clear_matches()$/;"	f
+clone	tmux/.tmux/plugins/tpm/scripts/install_plugins.sh	/^clone() {$/;"	f
+clone_plugin	tmux/.tmux/plugins/tpm/scripts/install_plugins.sh	/^clone_plugin() {$/;"	f
+close	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:close() abort$/;"	f
+closematch	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:closematch(str) " {{{1$/;"	f
+colors_name	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^let colors_name = "solarized8_dark"$/;"	v
+colors_name	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^let colors_name = "solarized8_dark_flat"$/;"	v
+colors_name	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^let colors_name = "solarized8_dark_high"$/;"	v
+colors_name	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^let colors_name = "solarized8_dark_low"$/;"	v
+colors_name	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^let colors_name = "solarized8_light"$/;"	v
+colors_name	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^let colors_name = "solarized8_light_flat"$/;"	v
+colors_name	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^let colors_name = "solarized8_light_high"$/;"	v
+colors_name	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^let colors_name = "solarized8_light_low"$/;"	v
+command_exists	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^command_exists() {$/;"	f
+compare_by_key_len	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^  function! s:compare_by_key_len(foo, bar)$/;"	f
+compare_by_val_len	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^  function! s:compare_by_val_len(foo, bar)$/;"	f
+cr	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let cr = !(map =~? '\\(^\\|[^)]\\)<cr>' || map =~ 'ExpandCr')$/;"	v
+create_highlight	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	function! s:create_highlight(color, is_bright)$/;"	f
+create_last_session_link	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:create_last_session_link(spath)$/;"	f
+create_matches	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! s:create_matches()$/;"	f
+create_syn_match	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! s:create_syn_match()$/;"	f
+create_test_plugin_helper	tmux/.tmux/plugins/tpm/tests/test_plugin_sourcing.sh	/^create_test_plugin_helper() {$/;"	f
+cs	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap cs  <Plug>Csurround$/;"	m
+css_color#disable	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! css_color#disable()$/;"	f
+css_color#enable	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! css_color#enable()$/;"	f
+css_color#extend	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	function! css_color#extend(groups)$/;"	f
+css_color#init	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	function! css_color#init(type, keywords, groups)$/;"	f
+css_color#init	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! css_color#init(type, keywords, groups)$/;"	f
+css_color#reinit	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! css_color#reinit()$/;"	f
+css_color#toggle	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! css_color#toggle()$/;"	f
+current_compiler	vim/.vim/bundle/vim-fish/compiler/fish.vim	/^let current_compiler = 'fish'$/;"	v
+current_compiler	vim/.vim/bundle/vim-javascript/compiler/eslint.vim	/^let current_compiler = "eslint"$/;"	v
+did_javascript_syn_inits	vim/.vim/bundle/vim-javascript/extras/flow.vim	/^    let did_javascript_syn_inits = 1$/;"	v
+did_javascript_syn_inits	vim/.vim/bundle/vim-javascript/extras/jsdoc.vim	/^    let did_javascript_syn_inits = 1$/;"	v
+did_javascript_syn_inits	vim/.vim/bundle/vim-javascript/syntax/javascript.vim	/^    let did_javascript_syn_inits = 1$/;"	v
+display_by_path	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:display_by_path(path_prefix, path_format, use_env) abort$/;"	f
+display_message	tmux/.tmux/plugins/tpm/scripts/check_tmux_version.sh	/^display_message() {$/;"	f
+display_plugin_update_list	tmux/.tmux/plugins/tpm/bindings/update_plugins	/^display_plugin_update_list() {$/;"	f
+dosurround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:dosurround(...) " {{{1$/;"	f
+draw_box	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^function! s:draw_box(lines) abort$/;"	f
+ds	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap ds  <Plug>Dsurround$/;"	m
+echo_err	tmux/.tmux/plugins/tpm/scripts/helpers/shell_echo_functions.sh	/^echo_err() {$/;"	f
+echo_err	tmux/.tmux/plugins/tpm/scripts/helpers/tmux_echo_functions.sh	/^echo_err() {$/;"	f
+echo_ok	tmux/.tmux/plugins/tpm/scripts/helpers/shell_echo_functions.sh	/^echo_ok() {$/;"	f
+echo_ok	tmux/.tmux/plugins/tpm/scripts/helpers/tmux_echo_functions.sh	/^echo_ok() {$/;"	f
+end_message	tmux/.tmux/plugins/tpm/scripts/helpers/tmux_echo_functions.sh	/^end_message() {$/;"	f
+ensure_tpm_path_exists	tmux/.tmux/plugins/tpm/scripts/helpers/utility.sh	/^ensure_tpm_path_exists() {$/;"	f
+existing_stab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let existing_stab = maparg('<s-tab>', 'i', 0, 1)$/;"	v
+existing_tab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let existing_tab = maparg('<tab>', 'i')$/;"	v
+exit_if_unsupported_version	tmux/.tmux/plugins/tpm/scripts/check_tmux_version.sh	/^exit_if_unsupported_version() {$/;"	f
+exit_value_helper	tmux/.tmux/plugins/tpm/scripts/helpers/utility.sh	/^exit_value_helper() {$/;"	f
+expr_map	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let expr_map = has_key(map_dict, 'expr') && map_dict.expr$/;"	v
+expr_map	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let expr_map = maparg('<cr>', 'i') =~? '\\<cr>'$/;"	v
+expr_map	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let expr_map = 0$/;"	v
+extinction	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^function! s:extinction()$/;"	f
+extractafter	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:extractafter(str)$/;"	f
+extractbefore	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:extractbefore(str)$/;"	f
+fail_helper	tmux/.tmux/plugins/tpm/scripts/helpers/utility.sh	/^fail_helper() {$/;"	f
+filter_oldfiles	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:filter_oldfiles(path_prefix, path_format, use_env) abort$/;"	f
+filter_oldfiles_unsafe	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:filter_oldfiles_unsafe(path_prefix, path_format, use_env) abort$/;"	f
+fish#Complete	vim/.vim/bundle/vim-fish/autoload/fish.vim	/^function! fish#Complete(findstart, base)$/;"	f
+fish#Fold	vim/.vim/bundle/vim-fish/autoload/fish.vim	/^function! fish#Fold()$/;"	f
+fish#Format	vim/.vim/bundle/vim-fish/autoload/fish.vim	/^function! fish#Format()$/;"	f
+fish#Indent	vim/.vim/bundle/vim-fish/autoload/fish.vim	/^function! fish#Indent()$/;"	f
+fish#errorformat	vim/.vim/bundle/vim-fish/autoload/fish.vim	/^function! fish#errorformat()$/;"	f
+fixindent	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:fixindent(str,spc)$/;"	f
+fname	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^      let fname = substitute(fname, '\\[', '\\[[]', 'g')$/;"	v
+fname	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^    let fname = fnamemodify(sfiles[i], ':t')$/;"	v
+g:AutoPairs	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`'}$/;"	v
+g:AutoPairsCenterLine	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsCenterLine = 1$/;"	v
+g:AutoPairsClosedPairs	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^let g:AutoPairsClosedPairs = {}$/;"	v
+g:AutoPairsFlyMode	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsFlyMode = 0$/;"	v
+g:AutoPairsLoaded	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^let g:AutoPairsLoaded = 1$/;"	v
+g:AutoPairsMapBS	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsMapBS = 1$/;"	v
+g:AutoPairsMapCR	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsMapCR = 1$/;"	v
+g:AutoPairsMapCh	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsMapCh = 1$/;"	v
+g:AutoPairsMapSpace	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsMapSpace = 1$/;"	v
+g:AutoPairsMoveCharacter	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsMoveCharacter = "()[]{}\\"'"$/;"	v
+g:AutoPairsMultilineClose	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsMultilineClose = 1$/;"	v
+g:AutoPairsParens	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsParens = {'(':')', '[':']', '{':'}'}$/;"	v
+g:AutoPairsShortcutBackInsert	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsShortcutBackInsert = '<M-b>'$/;"	v
+g:AutoPairsShortcutFastWrap	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsShortcutFastWrap = '<M-e>'$/;"	v
+g:AutoPairsShortcutJump	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsShortcutJump = '<M-n>'$/;"	v
+g:AutoPairsShortcutToggle	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsShortcutToggle = '<M-p>'$/;"	v
+g:AutoPairsSmartQuotes	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let g:AutoPairsSmartQuotes = 1$/;"	v
+g:SuperTabClosePreviewOnPopupClose	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabClosePreviewOnPopupClose = 0$/;"	v
+g:SuperTabCompleteCase	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabCompleteCase = 'inherit'$/;"	v
+g:SuperTabCompletionContexts	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabCompletionContexts = ['s:ContextText']$/;"	v
+g:SuperTabContextDefaultCompletionType	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabContextDefaultCompletionType = "<c-p>"$/;"	v
+g:SuperTabContextTextMemberPatterns	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabContextTextMemberPatterns = ['\\.', '>\\?::', '->']$/;"	v
+g:SuperTabCrMapping	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabCrMapping = 0$/;"	v
+g:SuperTabCrMapping	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabCrMapping = 0$/;"	v
+g:SuperTabDefaultCompletionType	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabDefaultCompletionType = "<c-p>"$/;"	v
+g:SuperTabLongestEnhanced	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabLongestEnhanced = 0$/;"	v
+g:SuperTabLongestHighlight	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabLongestHighlight = 0$/;"	v
+g:SuperTabMappingBackward	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingBackward = '<s-tab>'$/;"	v
+g:SuperTabMappingForward	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingForward = '<tab>'$/;"	v
+g:SuperTabMappingTabLiteral	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingTabLiteral = '<c-tab>'$/;"	v
+g:SuperTabNoCompleteAfter	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteAfter = ['^', '\\s']$/;"	v
+g:SuperTabNoCompleteAfter	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteAfter = []$/;"	v
+g:SuperTabNoCompleteBefore	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteBefore = ['\\k']$/;"	v
+g:SuperTabNoCompleteBefore	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteBefore = []$/;"	v
+g:SuperTabRetainCompletionDuration	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabRetainCompletionDuration = 'insert'$/;"	v
+g:SuperTabUndoBreak	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabUndoBreak = 0$/;"	v
+g:autoloaded_startify	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let g:autoloaded_startify = 1$/;"	v
+g:gutentags_add_default_project_roots	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_add_default_project_roots = get(g:, 'gutentags_add_default_project_roots', 1)$/;"	v
+g:gutentags_auto_add_cscope	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_auto_add_cscope = 1$/;"	v
+g:gutentags_auto_add_gtags_cscope	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^	let g:gutentags_auto_add_gtags_cscope = 1$/;"	v
+g:gutentags_background_update	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_background_update = get(g:, 'gutentags_background_update', 1)$/;"	v
+g:gutentags_cache_dir	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_cache_dir = ''$/;"	v
+g:gutentags_cache_dir	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_cache_dir = fnamemodify(g:gutentags_cache_dir, ':p')$/;"	v
+g:gutentags_cache_dir	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_cache_dir = fnamemodify(g:gutentags_cache_dir, ':s?[\/\\\\]$??')$/;"	v
+g:gutentags_cscope_executable	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_cscope_executable = 'cscope'$/;"	v
+g:gutentags_ctags_auto_set_tags	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_auto_set_tags = get(g:, 'gutentags_ctags_auto_set_tags', 1)$/;"	v
+g:gutentags_ctags_check_tagfile	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_check_tagfile = get(g:, 'gutentags_ctags_check_tagfile', 0)$/;"	v
+g:gutentags_ctags_exclude	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_exclude = get(g:, 'gutentags_ctags_exclude', [])$/;"	v
+g:gutentags_ctags_exclude_wildignore	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_exclude_wildignore = get(g:, 'gutentags_ctags_exclude_wildignore', 1)$/;"	v
+g:gutentags_ctags_executable	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_executable = get(g:, 'gutentags_ctags_executable', 'ctags')$/;"	v
+g:gutentags_ctags_extra_args	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_extra_args = get(g:, 'gutentags_ctags_extra_args', [])$/;"	v
+g:gutentags_ctags_options_file	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_options_file = get(g:, 'gutentags_ctags_options_file', '.gutctags')$/;"	v
+g:gutentags_ctags_post_process_cmd	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_post_process_cmd = get(g:, 'gutentags_ctags_post_process_cmd', '')$/;"	v
+g:gutentags_ctags_tagfile	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_tagfile = get(g:, 'gutentags_ctags_tagfile', 'tags')$/;"	v
+g:gutentags_debug	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_debug = get(g:, 'gutentags_debug', 0)$/;"	v
+g:gutentags_define_advanced_commands	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_define_advanced_commands = get(g:, 'gutentags_define_advanced_commands', 0)$/;"	v
+g:gutentags_enabled	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_enabled = get(g:, 'gutentags_enabled', 1)$/;"	v
+g:gutentags_exclude_project_root	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_exclude_project_root = get(g:, 'gutentags_exclude_project_root', ['\/usr\/local'])$/;"	v
+g:gutentags_fake	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_fake = get(g:, 'gutentags_fake', 0)$/;"	v
+g:gutentags_file_list_command	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_file_list_command = get(g:, 'gutentags_file_list_command', '')$/;"	v
+g:gutentags_generate_on_empty_buffer	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_generate_on_empty_buffer = get(g:, 'gutentags_generate_on_empty_buffer', 0)$/;"	v
+g:gutentags_generate_on_missing	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_generate_on_missing = get(g:, 'gutentags_generate_on_missing', 1)$/;"	v
+g:gutentags_generate_on_new	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_generate_on_new = get(g:, 'gutentags_generate_on_new', 1)$/;"	v
+g:gutentags_generate_on_write	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_generate_on_write = get(g:, 'gutentags_generate_on_write', 1)$/;"	v
+g:gutentags_gtags_cscope_executable	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^	let g:gutentags_gtags_cscope_executable = 'gtags-cscope'$/;"	v
+g:gutentags_gtags_dbpath	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^	let g:gutentags_gtags_dbpath = ''$/;"	v
+g:gutentags_gtags_executable	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^	let g:gutentags_gtags_executable = 'gtags'$/;"	v
+g:gutentags_gtags_options_file	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^	let g:gutentags_gtags_options_file = '.gutgtags'$/;"	v
+g:gutentags_init_user_func	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_init_user_func = get(g:, 'gutentags_init_user_func', $/;"	v
+g:gutentags_modules	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_modules = get(g:, 'gutentags_modules', ['ctags'])$/;"	v
+g:gutentags_pause_after_update	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_pause_after_update = get(g:, 'gutentags_pause_after_update', 0)$/;"	v
+g:gutentags_plat_dir	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_plat_dir = expand('<sfile>:h:h:p') . "\\\\plat\\\\win32\\\\"$/;"	v
+g:gutentags_plat_dir	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_plat_dir = expand('<sfile>:h:h:p') . '\/plat\/unix\/'$/;"	v
+g:gutentags_project_info	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_project_info = get(g:, 'gutentags_project_info', [])$/;"	v
+g:gutentags_project_root	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_project_root += ['.git', '.hg', '.svn', '.bzr', '_darcs', '_FOSSIL_', '.fslckout']$/;"	v
+g:gutentags_project_root	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_project_root = get(g:, 'gutentags_project_root', [])$/;"	v
+g:gutentags_project_root_finder	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_project_root_finder = get(g:, 'gutentags_project_root_finder', '')$/;"	v
+g:gutentags_res_dir	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_res_dir = expand('<sfile>:h:h:p') . "\\\\res\\\\"$/;"	v
+g:gutentags_res_dir	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_res_dir = expand('<sfile>:h:h:p') . '\/res\/'$/;"	v
+g:gutentags_resolve_symlinks	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_resolve_symlinks = get(g:, 'gutentags_resolve_symlinks', 0)$/;"	v
+g:gutentags_scopefile	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_scopefile = 'cscope.out'$/;"	v
+g:gutentags_script_ext	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_script_ext = '.cmd'$/;"	v
+g:gutentags_script_ext	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_script_ext = '.sh'$/;"	v
+g:gutentags_trace	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_trace = get(g:, 'gutentags_trace', 0)$/;"	v
+g:jsx_ext_required	vim/.vim/bundle/vim-jsx/ftdetect/javascript.vim	/^  let g:jsx_ext_required = 1$/;"	v
+g:jsx_pragma_required	vim/.vim/bundle/vim-jsx/ftdetect/javascript.vim	/^  let g:jsx_pragma_required = 0$/;"	v
+g:loaded_gutentags	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:loaded_gutentags = 1$/;"	v
+g:loaded_pathogen	vim/.vim/autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
+g:loaded_repeat	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^let g:loaded_repeat = 1$/;"	v
+g:loaded_startify	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^let g:loaded_startify = 1$/;"	v
+g:loaded_surround	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^let g:loaded_surround = 1$/;"	v
+g:loaded_syntastic_fish_fish_checker	vim/.vim/bundle/vim-fish/syntax_checkers/fish/fish.vim	/^let g:loaded_syntastic_fish_fish_checker = 1$/;"	v
+g:repeat_reg	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^let g:repeat_reg = ['', '']$/;"	v
+g:repeat_tick	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^let g:repeat_tick = -1$/;"	v
+g:startify_locked	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^let g:startify_locked = 0$/;"	v
+g:terminal_color_0	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_0 = '#073642'$/;"	v
+g:terminal_color_0	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_0 = '#073642'$/;"	v
+g:terminal_color_0	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_0 = '#073642'$/;"	v
+g:terminal_color_0	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_0 = '#073642'$/;"	v
+g:terminal_color_0	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_0 = '#073642'$/;"	v
+g:terminal_color_0	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_0 = '#073642'$/;"	v
+g:terminal_color_0	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_0 = '#073642'$/;"	v
+g:terminal_color_0	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_0 = '#073642'$/;"	v
+g:terminal_color_1	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_1 = '#dc322f'$/;"	v
+g:terminal_color_1	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_1 = '#dc322f'$/;"	v
+g:terminal_color_1	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_1 = '#dc322f'$/;"	v
+g:terminal_color_1	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_1 = '#dc322f'$/;"	v
+g:terminal_color_1	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_1 = '#dc322f'$/;"	v
+g:terminal_color_1	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_1 = '#dc322f'$/;"	v
+g:terminal_color_1	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_1 = '#dc322f'$/;"	v
+g:terminal_color_1	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_1 = '#dc322f'$/;"	v
+g:terminal_color_10	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_10 = '#586e75'$/;"	v
+g:terminal_color_10	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_10 = '#586e75'$/;"	v
+g:terminal_color_10	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_10 = '#586e75'$/;"	v
+g:terminal_color_10	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_10 = '#586e75'$/;"	v
+g:terminal_color_10	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_10 = '#586e75'$/;"	v
+g:terminal_color_10	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_10 = '#586e75'$/;"	v
+g:terminal_color_10	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_10 = '#586e75'$/;"	v
+g:terminal_color_10	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_10 = '#586e75'$/;"	v
+g:terminal_color_11	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_11 = '#657b83'$/;"	v
+g:terminal_color_11	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_11 = '#657b83'$/;"	v
+g:terminal_color_11	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_11 = '#657b83'$/;"	v
+g:terminal_color_11	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_11 = '#657b83'$/;"	v
+g:terminal_color_11	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_11 = '#657b83'$/;"	v
+g:terminal_color_11	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_11 = '#657b83'$/;"	v
+g:terminal_color_11	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_11 = '#657b83'$/;"	v
+g:terminal_color_11	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_11 = '#657b83'$/;"	v
+g:terminal_color_12	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_12 = '#839496'$/;"	v
+g:terminal_color_12	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_12 = '#839496'$/;"	v
+g:terminal_color_12	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_12 = '#839496'$/;"	v
+g:terminal_color_12	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_12 = '#839496'$/;"	v
+g:terminal_color_12	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_12 = '#839496'$/;"	v
+g:terminal_color_12	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_12 = '#839496'$/;"	v
+g:terminal_color_12	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_12 = '#839496'$/;"	v
+g:terminal_color_12	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_12 = '#839496'$/;"	v
+g:terminal_color_13	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_13 = '#6c71c4'$/;"	v
+g:terminal_color_13	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_13 = '#6c71c4'$/;"	v
+g:terminal_color_13	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_13 = '#6c71c4'$/;"	v
+g:terminal_color_13	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_13 = '#6c71c4'$/;"	v
+g:terminal_color_13	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_13 = '#6c71c4'$/;"	v
+g:terminal_color_13	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_13 = '#6c71c4'$/;"	v
+g:terminal_color_13	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_13 = '#6c71c4'$/;"	v
+g:terminal_color_13	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_13 = '#6c71c4'$/;"	v
+g:terminal_color_14	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_14 = '#93a1a1'$/;"	v
+g:terminal_color_14	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_14 = '#93a1a1'$/;"	v
+g:terminal_color_14	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_14 = '#93a1a1'$/;"	v
+g:terminal_color_14	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_14 = '#93a1a1'$/;"	v
+g:terminal_color_14	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_14 = '#93a1a1'$/;"	v
+g:terminal_color_14	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_14 = '#93a1a1'$/;"	v
+g:terminal_color_14	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_14 = '#93a1a1'$/;"	v
+g:terminal_color_14	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_14 = '#93a1a1'$/;"	v
+g:terminal_color_15	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_15 = '#fdf6e3'$/;"	v
+g:terminal_color_15	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_15 = '#fdf6e3'$/;"	v
+g:terminal_color_15	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_15 = '#fdf6e3'$/;"	v
+g:terminal_color_15	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_15 = '#fdf6e3'$/;"	v
+g:terminal_color_15	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_15 = '#fdf6e3'$/;"	v
+g:terminal_color_15	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_15 = '#fdf6e3'$/;"	v
+g:terminal_color_15	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_15 = '#fdf6e3'$/;"	v
+g:terminal_color_15	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_15 = '#fdf6e3'$/;"	v
+g:terminal_color_2	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_2 = '#719e07'$/;"	v
+g:terminal_color_2	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_2 = '#719e07'$/;"	v
+g:terminal_color_2	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_2 = '#719e07'$/;"	v
+g:terminal_color_2	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_2 = '#719e07'$/;"	v
+g:terminal_color_2	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_2 = '#719e07'$/;"	v
+g:terminal_color_2	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_2 = '#719e07'$/;"	v
+g:terminal_color_2	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_2 = '#719e07'$/;"	v
+g:terminal_color_2	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_2 = '#719e07'$/;"	v
+g:terminal_color_3	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_3 = '#b58900'$/;"	v
+g:terminal_color_3	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_3 = '#b58900'$/;"	v
+g:terminal_color_3	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_3 = '#b58900'$/;"	v
+g:terminal_color_3	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_3 = '#b58900'$/;"	v
+g:terminal_color_3	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_3 = '#b58900'$/;"	v
+g:terminal_color_3	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_3 = '#b58900'$/;"	v
+g:terminal_color_3	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_3 = '#b58900'$/;"	v
+g:terminal_color_3	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_3 = '#b58900'$/;"	v
+g:terminal_color_4	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_4 = '#268bd2'$/;"	v
+g:terminal_color_4	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_4 = '#268bd2'$/;"	v
+g:terminal_color_4	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_4 = '#268bd2'$/;"	v
+g:terminal_color_4	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_4 = '#268bd2'$/;"	v
+g:terminal_color_4	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_4 = '#268bd2'$/;"	v
+g:terminal_color_4	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_4 = '#268bd2'$/;"	v
+g:terminal_color_4	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_4 = '#268bd2'$/;"	v
+g:terminal_color_4	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_4 = '#268bd2'$/;"	v
+g:terminal_color_5	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_5 = '#d33682'$/;"	v
+g:terminal_color_5	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_5 = '#d33682'$/;"	v
+g:terminal_color_5	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_5 = '#d33682'$/;"	v
+g:terminal_color_5	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_5 = '#d33682'$/;"	v
+g:terminal_color_5	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_5 = '#d33682'$/;"	v
+g:terminal_color_5	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_5 = '#d33682'$/;"	v
+g:terminal_color_5	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_5 = '#d33682'$/;"	v
+g:terminal_color_5	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_5 = '#d33682'$/;"	v
+g:terminal_color_6	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_6 = '#2aa198'$/;"	v
+g:terminal_color_6	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_6 = '#2aa198'$/;"	v
+g:terminal_color_6	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_6 = '#2aa198'$/;"	v
+g:terminal_color_6	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_6 = '#2aa198'$/;"	v
+g:terminal_color_6	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_6 = '#2aa198'$/;"	v
+g:terminal_color_6	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_6 = '#2aa198'$/;"	v
+g:terminal_color_6	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_6 = '#2aa198'$/;"	v
+g:terminal_color_6	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_6 = '#2aa198'$/;"	v
+g:terminal_color_7	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_7 = '#eee8d5'$/;"	v
+g:terminal_color_7	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_7 = '#eee8d5'$/;"	v
+g:terminal_color_7	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_7 = '#eee8d5'$/;"	v
+g:terminal_color_7	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_7 = '#eee8d5'$/;"	v
+g:terminal_color_7	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_7 = '#eee8d5'$/;"	v
+g:terminal_color_7	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_7 = '#eee8d5'$/;"	v
+g:terminal_color_7	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_7 = '#eee8d5'$/;"	v
+g:terminal_color_7	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_7 = '#eee8d5'$/;"	v
+g:terminal_color_8	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_8 = '#002b36'$/;"	v
+g:terminal_color_8	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_8 = '#002b36'$/;"	v
+g:terminal_color_8	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_8 = '#002b36'$/;"	v
+g:terminal_color_8	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_8 = '#002b36'$/;"	v
+g:terminal_color_8	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_8 = '#002b36'$/;"	v
+g:terminal_color_8	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_8 = '#002b36'$/;"	v
+g:terminal_color_8	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_8 = '#002b36'$/;"	v
+g:terminal_color_8	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_8 = '#002b36'$/;"	v
+g:terminal_color_9	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark.vim	/^  let g:terminal_color_9 = '#cb4b16'$/;"	v
+g:terminal_color_9	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_flat.vim	/^  let g:terminal_color_9 = '#cb4b16'$/;"	v
+g:terminal_color_9	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_high.vim	/^  let g:terminal_color_9 = '#cb4b16'$/;"	v
+g:terminal_color_9	vim/.vim/bundle/vim-solarized8/colors/solarized8_dark_low.vim	/^  let g:terminal_color_9 = '#cb4b16'$/;"	v
+g:terminal_color_9	vim/.vim/bundle/vim-solarized8/colors/solarized8_light.vim	/^  let g:terminal_color_9 = '#cb4b16'$/;"	v
+g:terminal_color_9	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_flat.vim	/^  let g:terminal_color_9 = '#cb4b16'$/;"	v
+g:terminal_color_9	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_high.vim	/^  let g:terminal_color_9 = '#cb4b16'$/;"	v
+g:terminal_color_9	vim/.vim/bundle/vim-solarized8/colors/solarized8_light_low.vim	/^  let g:terminal_color_9 = '#cb4b16'$/;"	v
+genesis	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^function! s:genesis()$/;"	f
+get_ctags_executable	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:get_ctags_executable(proj_dir) abort$/;"	f
+get_digits_from_string	tmux/.tmux/plugins/tpm/scripts/check_tmux_version.sh	/^get_digits_from_string() {$/;"	f
+get_index_as_string	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:get_index_as_string(idx) abort$/;"	f
+get_random_offset	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^function! s:get_random_offset(max) abort$/;"	f
+get_tmux_option	tmux/.tmux/plugins/tmux-colors-solarized/tmuxcolors.tmux	/^get_tmux_option() {$/;"	f
+get_tmux_option	tmux/.tmux/plugins/tpm/scripts/check_tmux_version.sh	/^get_tmux_option() {$/;"	f
+get_tmux_option	tmux/.tmux/plugins/tpm/tpm	/^get_tmux_option() {$/;"	f
+get_unix_cmd	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! s:get_unix_cmd(for_job, proj_options, db_path) abort$/;"	f
+get_win32_cmd	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! s:get_win32_cmd(for_job, proj_options, db_path) abort$/;"	f
+getchar	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:getchar()$/;"	f
+gutentags#add_progress	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#add_progress(module, file) abort$/;"	f
+gutentags#chdir	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#chdir(path)$/;"	f
+gutentags#cscope#command_terminated	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^function! gutentags#cscope#command_terminated(job_id, data, event) abort$/;"	f
+gutentags#cscope#generate	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^function! gutentags#cscope#generate(proj_dir, tags_file, write_mode) abort$/;"	f
+gutentags#cscope#init	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^function! gutentags#cscope#init(project_root) abort$/;"	f
+gutentags#ctags#generate	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! gutentags#ctags#generate(proj_dir, tags_file, write_mode) abort$/;"	f
+gutentags#ctags#init	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! gutentags#ctags#init(project_root) abort$/;"	f
+gutentags#delete_lock_files	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#delete_lock_files() abort$/;"	f
+gutentags#fake	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#fake(...)$/;"	f
+gutentags#get_cachefile	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_cachefile(root_dir, filename) abort$/;"	f
+gutentags#get_execute_cmd	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_execute_cmd() abort$/;"	f
+gutentags#get_execute_cmd_suffix	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_execute_cmd_suffix() abort$/;"	f
+gutentags#get_plat_file	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_plat_file(filename) abort$/;"	f
+gutentags#get_project_file_list_cmd	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_project_file_list_cmd(path) abort$/;"	f
+gutentags#get_project_info	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_project_info(path) abort$/;"	f
+gutentags#get_project_root	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_project_root(path) abort$/;"	f
+gutentags#get_res_file	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_res_file(filename) abort$/;"	f
+gutentags#gtags_cscope#generate	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! gutentags#gtags_cscope#generate(proj_dir, db_file, write_mode) abort$/;"	f
+gutentags#gtags_cscope#init	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! gutentags#gtags_cscope#init(project_root) abort$/;"	f
+gutentags#gtags_cscope#on_job_exit	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! gutentags#gtags_cscope#on_job_exit(job, exit_val) abort$/;"	f
+gutentags#gtags_cscope#on_job_out	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! gutentags#gtags_cscope#on_job_out(job, data) abort$/;"	f
+gutentags#inprogress	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#inprogress()$/;"	f
+gutentags#is_path_rooted	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#is_path_rooted(path) abort$/;"	f
+gutentags#normalizepath	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#normalizepath(path)$/;"	f
+gutentags#rescan	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#rescan(...)$/;"	f
+gutentags#setup_gutentags	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#setup_gutentags() abort$/;"	f
+gutentags#shellslash	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#shellslash(path)$/;"	f
+gutentags#statusline	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#statusline(...) abort$/;"	f
+gutentags#stripslash	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#stripslash(path)$/;"	f
+gutentags#throw	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#throw(message)$/;"	f
+gutentags#throwerr	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#throwerr(message)$/;"	f
+gutentags#toggletrace	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#toggletrace(...)$/;"	f
+gutentags#trace	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#trace(message, ...)$/;"	f
+gutentags#validate_cmd	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#validate_cmd(cmd) abort$/;"	f
+gutentags_detect	vim/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^augroup gutentags_detect$/;"	a
+hs_highlight_boolean	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let hs_highlight_boolean=1$/;"	v
+hs_highlight_delimiters	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let hs_highlight_delimiters=1$/;"	v
+hsl2color	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! s:hsl2color(h,s,l)$/;"	f
+iabbrev_map	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let iabbrev_map = iabbrevs =~? '\\<cr>'$/;"	v
+index	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^    let index = s:get_index_as_string(b:startify.entry_number)$/;"	v
+init_env	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:init_env()$/;"	f
+inputreplacement	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:inputreplacement()$/;"	f
+inputtarget	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:inputtarget()$/;"	f
+insert	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:insert(...) " {{{1$/;"	f
+install_plugin	tmux/.tmux/plugins/tpm/scripts/install_plugins.sh	/^install_plugin() {$/;"	f
+install_plugins	tmux/.tmux/plugins/tpm/scripts/install_plugins.sh	/^install_plugins() {$/;"	f
+is_in_skiplist	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:is_in_skiplist(arg) abort$/;"	f
+is_osx	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^is_osx() {$/;"	f
+iterm_terminal	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^iterm_terminal() {$/;"	f
+key_binding_not_changed	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^key_binding_not_changed() {$/;"	f
+key_binding_not_set	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^key_binding_not_set() {$/;"	f
+loaded_supertab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^let loaded_supertab = 1$/;"	v
+main	tmux/.tmux/plugins/tmux-colors-solarized/tmuxcolors.tmux	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/bin/clean_plugins	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/bin/install_plugins	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/bin/update_plugins	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/bindings/clean_plugins	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/bindings/install_plugins	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/bindings/update_plugins	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/scripts/check_tmux_version.sh	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/scripts/clean_plugins.sh	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/scripts/install_plugins.sh	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/scripts/source_plugins.sh	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/scripts/update_plugin.sh	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/scripts/update_plugin_prompt_handler.sh	/^main() {$/;"	f
+main	tmux/.tmux/plugins/tpm/tpm	/^main() {$/;"	f
+main_syntax	vim/.vim/bundle/vim-javascript/syntax/javascript.vim	/^  let main_syntax = 'javascript'$/;"	v
+manual_update_tags	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:manual_update_tags(bang) abort$/;"	f
+manually_install_the_plugin	tmux/.tmux/plugins/tpm/tests/test_plugin_clean.sh	/^manually_install_the_plugin() {$/;"	f
+manually_install_the_plugin	tmux/.tmux/plugins/tpm/tests/test_plugin_update.sh	/^manually_install_the_plugin() {$/;"	f
+map	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let map = maparg('<cr>', 'i')$/;"	v
+map	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let map = s:ExpandMap(map)$/;"	v
+map_dict	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let map_dict = maparg('<cr>', 'i', 0, 1)$/;"	v
+natures	vim/.vim/bundle/supertab/ftplugin/html.vim	/^        let natures = eclim#project#util#GetProjectNatureAliases(project)$/;"	v
+open_buffer	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:open_buffer(entry)$/;"	f
+opfunc	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:opfunc(type,...) " {{{1$/;"	f
+opfunc2	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:opfunc2(arg)$/;"	f
+option_value_not_changed	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^option_value_not_changed() {$/;"	f
+parse_screen	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! s:parse_screen()$/;"	f
+pathogen#cycle_filetype	vim/.vim/autoload/pathogen.vim	/^function! pathogen#cycle_filetype() abort$/;"	f
+pathogen#execute	vim/.vim/autoload/pathogen.vim	/^function! pathogen#execute(...) abort$/;"	f
+pathogen#expand	vim/.vim/autoload/pathogen.vim	/^function! pathogen#expand(pattern, ...) abort$/;"	f
+pathogen#fnameescape	vim/.vim/autoload/pathogen.vim	/^function! pathogen#fnameescape(string) abort$/;"	f
+pathogen#glob	vim/.vim/autoload/pathogen.vim	/^function! pathogen#glob(pattern) abort$/;"	f
+pathogen#glob_directories	vim/.vim/autoload/pathogen.vim	/^function! pathogen#glob_directories(pattern) abort$/;"	f
+pathogen#helptags	vim/.vim/autoload/pathogen.vim	/^function! pathogen#helptags() abort$/;"	f
+pathogen#infect	vim/.vim/autoload/pathogen.vim	/^function! pathogen#infect(...) abort$/;"	f
+pathogen#interpose	vim/.vim/autoload/pathogen.vim	/^function! pathogen#interpose(name) abort$/;"	f
+pathogen#is_absolute	vim/.vim/autoload/pathogen.vim	/^function! pathogen#is_absolute(path) abort$/;"	f
+pathogen#is_disabled	vim/.vim/autoload/pathogen.vim	/^function! pathogen#is_disabled(path) abort$/;"	f
+pathogen#join	vim/.vim/autoload/pathogen.vim	/^function! pathogen#join(...) abort$/;"	f
+pathogen#legacyjoin	vim/.vim/autoload/pathogen.vim	/^function! pathogen#legacyjoin(...) abort$/;"	f
+pathogen#runtime_findfile	vim/.vim/autoload/pathogen.vim	/^function! pathogen#runtime_findfile(file,count) abort$/;"	f
+pathogen#separator	vim/.vim/autoload/pathogen.vim	/^function! pathogen#separator() abort$/;"	f
+pathogen#slash	vim/.vim/autoload/pathogen.vim	/^function! pathogen#slash() abort$/;"	f
+pathogen#split	vim/.vim/autoload/pathogen.vim	/^function! pathogen#split(path) abort$/;"	f
+pathogen#surround	vim/.vim/autoload/pathogen.vim	/^function! pathogen#surround(path) abort$/;"	f
+pathogen#uniq	vim/.vim/autoload/pathogen.vim	/^function! pathogen#uniq(list) abort$/;"	f
+plugin_already_installed	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^plugin_already_installed() {$/;"	f
+plugin_dir_exists	tmux/.tmux/plugins/tpm/scripts/source_plugins.sh	/^plugin_dir_exists() {$/;"	f
+plugin_name_helper	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^plugin_name_helper() {$/;"	f
+plugin_path_helper	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^plugin_path_helper() {$/;"	f
+prefix	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^prefix() {$/;"	f
+prefix_without_ctrl	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^prefix_without_ctrl() {$/;"	f
+print_section_header	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:print_section_header() abort$/;"	f
+process	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:process(string)$/;"	f
+process_options_file	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:process_options_file(proj_dir, path) abort$/;"	f
+project	vim/.vim/bundle/supertab/ftplugin/html.vim	/^      let project = eclim#project#util#GetCurrentProjectName()$/;"	v
+pull_changes	tmux/.tmux/plugins/tpm/scripts/update_plugin.sh	/^pull_changes() {$/;"	f
+put	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^fun! s:put(line)$/;"	f
+redraw	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:redraw()$/;"	f
+register	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:register(line, index, type, cmd, path)$/;"	f
+reindent	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:reindent() " {{{1$/;"	f
+reload_tmux_environment	tmux/.tmux/plugins/tpm/scripts/helpers/tmux_utils.sh	/^reload_tmux_environment() {$/;"	f
+repeat#invalidate	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^function! repeat#invalidate()$/;"	f
+repeat#run	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^function! repeat#run(count)$/;"	f
+repeat#set	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^function! repeat#set(sequence,...)$/;"	f
+repeat#setreg	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^function! repeat#setreg(sequence,register)$/;"	f
+repeat#wrap	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^function! repeat#wrap(command,count)$/;"	f
+repeatPlugin	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^augroup repeatPlugin$/;"	a
+rgb2color	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^function! s:rgb2color(r,g,b)$/;"	f
+rgb2xterm	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	function! s:rgb2xterm(color)$/;"	f
+s:Go	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let s:Go = ""$/;"	v
+s:Go	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^  let s:Go = "\\<C-G>U"$/;"	v
+s:Left	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^let s:Left = s:Go."\\<LEFT>"$/;"	v
+s:Right	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^let s:Right = s:Go."\\<RIGHT>"$/;"	v
+s:ShiftTab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^        let s:ShiftTab = function(stab)$/;"	v
+s:ShiftTab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let s:ShiftTab = stab$/;"	v
+s:Tab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let s:Tab = function(substitute(existing_tab, '()$', '', ''))$/;"	v
+s:_csscolor	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:_csscolor   = s:_hexcolor . '\\|' . s:_funcexpr$/;"	v
+s:_funcexpr	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:_funcexpr   = s:_funcname . '[(]' . s:_numval . s:_listsep . s:_numval . s:_listsep . s:_numval . s:_ws_ . s:_otherargs_ . '[)]'$/;"	v
+s:_funcname	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:_funcname   = '\\(rgb\\|hsl\\)a\\?' " submatch 2$/;"	v
+s:_hexcolor	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:_hexcolor   = '#\\(\\x\\{3}\\|\\x\\{6}\\)\\>' " submatch 1$/;"	v
+s:_listsep	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:_listsep    = s:_ws_ . ','$/;"	v
+s:_numval	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:_numval     = s:_ws_ . '\\(\\d\\{1,3}%\\?\\)' " submatch 3,4,5$/;"	v
+s:_otherargs_	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:_otherargs_ = '\\%(,[^)]*\\)\\?'$/;"	v
+s:_ws_	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:_ws_        = '\\s*'$/;"	v
+s:added_db_files	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^let s:added_db_files = {}$/;"	v
+s:added_dbs	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:added_dbs = []$/;"	v
+s:b	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:b           = ",bold"$/;"	v
+s:back	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:back        = s:base02$/;"	v
+s:back	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:back        = s:base03$/;"	v
+s:back	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:back        = s:base03$/;"	v
+s:base0	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base0       = s:base1$/;"	v
+s:base0	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base0       = s:temp00$/;"	v
+s:base0	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:base0       = ["12", "#839496"]$/;"	v
+s:base00	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base00      = s:base0$/;"	v
+s:base00	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:base00      = ["11", "#657b83"]$/;"	v
+s:base01	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base01      = s:base00$/;"	v
+s:base01	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base01      = s:base1$/;"	v
+s:base01	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:base01      = ["10", "#586e75"]$/;"	v
+s:base02	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base02      = s:base2$/;"	v
+s:base02	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:base02      = ["0" , "#073642"]$/;"	v
+s:base03	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base03      = s:base3$/;"	v
+s:base03	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:base03      = ["8" , "#002b36"]$/;"	v
+s:base1	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base1       = s:base2$/;"	v
+s:base1	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base1       = s:temp01$/;"	v
+s:base1	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:base1       = ["14", "#93a1a1"]$/;"	v
+s:base2	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base2       = s:base3$/;"	v
+s:base2	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base2       = s:temp02$/;"	v
+s:base2	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:base2       = ["7" , "#eee8d5"]$/;"	v
+s:base3	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:base3       = s:temp03$/;"	v
+s:base3	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:base3       = ["15", "#fdf6e3"]$/;"	v
+s:blue	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:blue        = ["4" , "#268bd2"]$/;"	v
+s:c	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:c           = ",undercurl"$/;"	v
+s:char_bottom_left	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:char_bottom_left  = ['*', '╰'][s:unicode]$/;"	v
+s:char_bottom_right	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:char_bottom_right = ['*', '╯'][s:unicode]$/;"	v
+s:char_sides	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:char_sides        = ['|', '│'][s:unicode]$/;"	v
+s:char_top_bottom	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:char_top_bottom   = ['-', '─'][s:unicode]$/;"	v
+s:char_top_left	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:char_top_left     = ['*', '╭'][s:unicode]$/;"	v
+s:char_top_right	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:char_top_right    = ['*', '╮'][s:unicode]$/;"	v
+s:colorTable	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:colorTable = [$/;"	v
+s:color_bright	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:color_bright  = {}$/;"	v
+s:color_idx	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:color_idx = {}$/;"	v
+s:colors_name	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:colors_name =  "solarized8_" . s:solarized_background . (s:solarized_contrast != "normal" ? "_" .s:solarized_contrast : "")$/;"	v
+s:continuation	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:continuation = get(g:,'javascript_continuation',$/;"	v
+s:cow	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:cow = [$/;"	v
+s:cpo_save	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cubergb	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:cubergb = [ 0x00, 0x5F, 0x87, 0xAF, 0xD7, 0xFF ]$/;"	v
+s:current_syntax	vim/.vim/bundle/vim-jsx/after/syntax/jsx.vim	/^  let s:current_syntax=b:current_syntax$/;"	v
+s:cyan	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:cyan        = ["6" , "#2aa198"]$/;"	v
+s:did_check_exe	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:did_check_exe = 0$/;"	v
+s:did_indent	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^  let s:did_indent=b:did_indent$/;"	v
+s:done_bundles	vim/.vim/autoload/pathogen.vim	/^let s:done_bundles = {}$/;"	v
+s:ds_pattern	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^let s:ds_pattern = '\\v"'  . s:string_chunk . '"'$/;"	v
+s:endtag	vim/.vim/bundle/vim-jsx/after/indent/jsx.vim	/^let s:endtag = '^\\s*\\\/\\?>\\s*;\\='$/;"	v
+s:env	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^  let s:env = sort(s:env, 's:compare_by_key_len')$/;"	v
+s:env	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^  let s:env = sort(s:env, 's:compare_by_val_len')$/;"	v
+s:fg_pdef	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:fg_pdef = s:fg_violet$/;"	v
+s:fg_phead	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:fg_phead = s:fg_orange$/;"	v
+s:fg_ptable	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:fg_ptable = s:fg_blue$/;"	v
+s:green	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:green       = ["2" , "#719e07"] " experimental$/;"	v
+s:has_dict_maparg	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  let s:has_dict_maparg = v:version > 703 || (v:version == 703 && has('patch32'))$/;"	v
+s:hex	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:hex[ printf( '%02x', i ) ] = i$/;"	v
+s:hex	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:hex={}$/;"	v
+s:i	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:i           = ",italic"$/;"	v
+s:in_comm	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:in_comm = s:skip_expr[:-14] . "'comment\\\\|doc'"$/;"	v
+s:job_db_files	vim/.vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^let s:job_db_files = []$/;"	v
+s:jsx_pragma_pattern	vim/.vim/bundle/vim-jsx/ftdetect/javascript.vim	/^let s:jsx_pragma_pattern = '\\%^\\_s*\\\/\\*\\*\\%(\\_.\\%(\\*\\\/\\)\\@!\\)*@jsx\\_.\\{-}\\*\\\/'$/;"	v
+s:known_files	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:known_files = []$/;"	v
+s:known_projects	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:known_projects = {}$/;"	v
+s:magenta	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:magenta     = ["5" , "#d33682"]$/;"	v
+s:maybe_in_progress	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    let s:maybe_in_progress[module] = {}$/;"	v
+s:maybe_in_progress	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:maybe_in_progress = {}$/;"	v
+s:modes	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  let s:modes = '\/^E\/^Y\/^L\/^N\/^K\/^T\/^I\/^]\/^F\/^D\/^V\/^P\/^U\/^O\/s'$/;"	v
+s:modes	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  let s:modes = s:modes . '\/n\/p'$/;"	v
+s:nowait	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:nowait         = v:version >= 704 || (v:version == 703 && has('patch1261')) ? '<nowait>' : ''$/;"	v
+s:numfiles	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:numfiles       = get(g:, 'startify_files_number', 10)$/;"	v
+s:ob	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:ob          = ""$/;"	v
+s:opfirst	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:opfirst = '^' . get(g:,'javascript_opfirst',$/;"	v
+s:orange	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:orange      = ["9" , "#cb4b16"]$/;"	v
+s:ou	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:ou          = ",underline"$/;"	v
+s:ou	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:ou          = ""$/;"	v
+s:padding_left	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:padding_left   = repeat(' ', get(g:, 'startify_padding_left', 3))$/;"	v
+s:padding_left	vim/.vim/bundle/vim-startify/syntax/startify.vim	/^let s:padding_left = repeat(' ', get(g:, 'startify_padding_left', 3))$/;"	v
+s:pat_for_type	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:pat_for_type = [ '^$', s:_hexcolor, s:_csscolor, '^$' ]$/;"	v
+s:pattern_color	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:pattern_color = {}$/;"	v
+s:quotes	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:quotes = exists('g:startify_custom_header_quotes')$/;"	v
+s:r	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:r           = ",reverse"$/;"	v
+s:red	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:red         = ["1" , "#dc322f"]$/;"	v
+s:rel	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:rel = has('reltime')$/;"	v
+s:relative_path	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:relative_path  = get(g:, 'startify_relative_path') ? ':~:.' : ':p:~'$/;"	v
+s:runner_exe	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:runner_exe = gutentags#get_plat_file('update_scopedb')$/;"	v
+s:runner_exe	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:runner_exe = gutentags#get_plat_file('update_tags')$/;"	v
+s:s	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:s           = ",standout"$/;"	v
+s:save_cpo	vim/.vim/bundle/supertab/plugin/supertab.vim	/^let s:save_cpo=&cpo$/;"	v
+s:sep	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:sep = startify#get_separator()$/;"	v
+s:sep	vim/.vim/bundle/vim-startify/syntax/startify.vim	/^let s:sep = startify#get_separator()$/;"	v
+s:session_dir	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:session_dir    = resolve(expand(get(g:, 'startify_session_dir',$/;"	v
+s:show_special	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:show_special   = get(g:, 'startify_enable_special', 1)$/;"	v
+s:skip_expr	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:skip_expr = "s:SynAt(line('.'),col('.')) =~? b:syng_strcom"$/;"	v
+s:skiplist	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:skiplist = get(g:, 'startify_skiplist', [$/;"	v
+s:ss_pattern	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^let s:ss_pattern = '\\v''' . s:string_chunk . ''''$/;"	v
+s:string_chunk	vim/.vim/bundle/auto-pairs/plugin/auto-pairs.vim	/^let s:string_chunk = '\\v%(\\\\\\_.|[^\\1]|[\\r\\n]){-}'$/;"	v
+s:tabHelp	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  let s:tabHelp =$/;"	v
+s:temp00	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:temp00      = s:base00$/;"	v
+s:temp01	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:temp01      = s:base01$/;"	v
+s:temp02	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:temp02      = s:base02$/;"	v
+s:temp03	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^      let s:temp03      = s:base03$/;"	v
+s:tf	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^let s:tf             = exists('g:startify_transformations')$/;"	v
+s:type	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^let s:type         = [ 'none', 'hex', 'css', 'none' ] " with wraparound for index() == -1$/;"	v
+s:types	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  let s:types = s:types . "np"$/;"	v
+s:types	vim/.vim/bundle/supertab/plugin/supertab.vim	/^  let s:types =$/;"	v
+s:u	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:u           = ""$/;"	v
+s:unicode	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^let s:unicode = &encoding == 'utf-8' && get(g:, 'startify_fortune_use_unicode')$/;"	v
+s:unix_redir	vim/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:unix_redir = (&shellredir =~# '%s') ? &shellredir : &shellredir . ' %s'$/;"	v
+s:unix_redir	vim/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:unix_redir = (&shellredir =~# '%s') ? &shellredir : &shellredir . ' %s'$/;"	v
+s:update_queue	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    let s:update_queue[module] = []$/;"	v
+s:update_queue	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:update_queue = {}$/;"	v
+s:violet	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:violet      = ["13", "#6c71c4"]$/;"	v
+s:xtermcolor	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:xtermcolor += map(range(24),'repeat([10*v:val+8],3) + [v:val+232]')$/;"	v
+s:xtermcolor	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:xtermcolor = [$/;"	v
+s:xvquant	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:xvquant = repeat([0],48)$/;"	v
+s:xvquant	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:xvquant[s:cubergb[2]] = 2$/;"	v
+s:xvquant	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:xvquant[s:cubergb[3]] = 3$/;"	v
+s:xvquant	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:xvquant[s:cubergb[4]] = 4$/;"	v
+s:xvquant	vim/.vim/bundle/vim-css-color/autoload/css_color.vim	/^	let s:xvquant[s:cubergb[5]] = 5$/;"	v
+s:yellow	vim/.vim/bundle/vim-solarized8/src/solarized8.vim	/^    let s:yellow      = ["3" , "#b58900"]$/;"	v
+s:z	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:z = has('patch-7.4.984') ? 'z' : ''$/;"	v
+script_run_helper	tmux/.tmux/plugins/tpm/tests/helpers/tpm.sh	/^script_run_helper() {$/;"	f
+server_option_value_not_changed	tmux/.tmux/plugins/tmux-sensible/sensible.tmux	/^server_option_value_not_changed() {$/;"	f
+set_cursor	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:set_cursor() abort$/;"	f
+set_default_tpm_path	tmux/.tmux/plugins/tpm/tpm	/^set_default_tpm_path() {$/;"	f
+set_mappings	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:set_mappings() abort$/;"	f
+set_mark	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:set_mark(type, ...) abort$/;"	f
+set_precedence	vim/.vim/bundle/supertab/ftplugin/html.vim	/^        let set_precedence = !eclim#util#ListContains(natures, 'php')$/;"	v
+set_precedence	vim/.vim/bundle/supertab/ftplugin/html.vim	/^  let set_precedence = 1$/;"	v
+set_tpm_key_bindings	tmux/.tmux/plugins/tpm/tpm	/^set_tpm_key_bindings() {$/;"	f
+set_tpm_path	tmux/.tmux/plugins/tpm/tpm	/^set_tpm_path() {$/;"	f
+show_bookmarks	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:show_bookmarks() abort$/;"	f
+show_commands	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:show_commands() abort$/;"	f
+show_dir	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:show_dir() abort$/;"	f
+show_files	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:show_files() abort$/;"	f
+show_sessions	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:show_sessions() abort$/;"	f
+silently_source_all_tmux_files	tmux/.tmux/plugins/tpm/scripts/source_plugins.sh	/^silently_source_all_tmux_files() {$/;"	f
+sort_by_tick	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! s:sort_by_tick(one, two)$/;"	f
+source_plugins	tmux/.tmux/plugins/tpm/scripts/source_plugins.sh	/^source_plugins() {$/;"	f
+source_plugins	tmux/.tmux/plugins/tpm/tpm	/^source_plugins() {$/;"	f
+stab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^        let stab = ''$/;"	v
+stab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^        let stab = substitute(stab, '()$', '', '')$/;"	v
+stab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^        let stab = substitute(stab, '<SID>\\c', '<SNR>' . existing_stab.sid . '_', '')$/;"	v
+stab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^      let stab = substitute(stab, '\\(<[-a-zA-Z0-9]\\+>\\)', '\\\\\\1', 'g')$/;"	v
+stab	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    let stab = maparg('<s-tab>', 'i')$/;"	v
+startify	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^augroup startify$/;"	a
+startify#debug	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#debug()$/;"	f
+startify#fortune#boxed	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^function! startify#fortune#boxed(...) abort$/;"	f
+startify#fortune#cowsay	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^function! startify#fortune#cowsay(...) abort$/;"	f
+startify#fortune#quote	vim/.vim/bundle/vim-startify/autoload/startify/fortune.vim	/^function! startify#fortune#quote() abort$/;"	f
+startify#get_lastline	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#get_lastline() abort$/;"	f
+startify#get_separator	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#get_separator() abort$/;"	f
+startify#insane_in_the_membrane	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#insane_in_the_membrane() abort$/;"	f
+startify#open_buffers	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#open_buffers(...) abort$/;"	f
+startify#session_close	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#session_close() abort$/;"	f
+startify#session_delete	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#session_delete(bang, ...) abort$/;"	f
+startify#session_delete_buffers	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#session_delete_buffers()$/;"	f
+startify#session_list	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#session_list(lead, ...) abort$/;"	f
+startify#session_list_as_string	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#session_list_as_string(lead, ...) abort$/;"	f
+startify#session_load	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#session_load(...) abort$/;"	f
+startify#session_save	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#session_save(...) abort$/;"	f
+startify#session_write	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function! startify#session_write(spath)$/;"	f
+supertab_close_preview	vim/.vim/bundle/supertab/plugin/supertab.vim	/^    augroup supertab_close_preview$/;"	a
+supported_tmux_version_ok	tmux/.tmux/plugins/tpm/tpm	/^supported_tmux_version_ok() {$/;"	f
+sw	vim/.vim/bundle/vim-javascript/indent/javascript.vim	/^  function s:sw()$/;"	f
+test_custom_tpm_path	tmux/.tmux/plugins/tpm/tests/test_plugin_sourcing.sh	/^test_custom_tpm_path() {$/;"	f
+test_default_tpm_path	tmux/.tmux/plugins/tpm/tests/test_plugin_sourcing.sh	/^test_default_tpm_path() {$/;"	f
+test_legacy_and_new_syntax_for_plugin_installation_work_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_installation_legacy.sh	/^test_legacy_and_new_syntax_for_plugin_installation_work_via_script() {$/;"	f
+test_legacy_and_new_syntax_for_plugin_installation_work_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_installation_legacy.sh	/^test_legacy_and_new_syntax_for_plugin_installation_work_via_tmux_key_binding() {$/;"	f
+test_multiple_plugins_installation_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_multiple_plugins_installation_via_script() {$/;"	f
+test_multiple_plugins_installation_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_multiple_plugins_installation_via_tmux_key_binding() {$/;"	f
+test_non_existing_plugin_installation_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_non_existing_plugin_installation_via_script() {$/;"	f
+test_non_existing_plugin_installation_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_non_existing_plugin_installation_via_tmux_key_binding() {$/;"	f
+test_plugin_installation_custom_dir_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugin_installation_custom_dir_via_script() {$/;"	f
+test_plugin_installation_custom_dir_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugin_installation_custom_dir_via_tmux_key_binding() {$/;"	f
+test_plugin_installation_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugin_installation_via_script() {$/;"	f
+test_plugin_installation_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_installation_legacy.sh	/^test_plugin_installation_via_script() {$/;"	f
+test_plugin_installation_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugin_installation_via_tmux_key_binding() {$/;"	f
+test_plugin_installation_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_installation_legacy.sh	/^test_plugin_installation_via_tmux_key_binding() {$/;"	f
+test_plugin_installation_via_tmux_key_binding_set_option	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugin_installation_via_tmux_key_binding_set_option() {$/;"	f
+test_plugin_sourcing	tmux/.tmux/plugins/tpm/tests/test_plugin_sourcing.sh	/^test_plugin_sourcing() {$/;"	f
+test_plugin_uninstallation_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_clean.sh	/^test_plugin_uninstallation_via_script() {$/;"	f
+test_plugin_uninstallation_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_clean.sh	/^test_plugin_uninstallation_via_tmux_key_binding() {$/;"	f
+test_plugin_update_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_update.sh	/^test_plugin_update_via_script() {$/;"	f
+test_plugin_update_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_update.sh	/^test_plugin_update_via_tmux_key_binding() {$/;"	f
+test_plugins_installation_from_multiple_sourced_files_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugins_installation_from_multiple_sourced_files_via_script() {$/;"	f
+test_plugins_installation_from_multiple_sourced_files_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugins_installation_from_multiple_sourced_files_via_tmux_key_binding() {$/;"	f
+test_plugins_installation_from_sourced_file_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugins_installation_from_sourced_file_via_script() {$/;"	f
+test_plugins_installation_from_sourced_file_via_tmux_key_binding	tmux/.tmux/plugins/tpm/tests/test_plugin_installation.sh	/^test_plugins_installation_from_sourced_file_via_tmux_key_binding() {$/;"	f
+test_unsuccessful_plugin_uninstallation_via_script	tmux/.tmux/plugins/tpm/tests/test_plugin_clean.sh	/^test_unsuccessful_plugin_uninstallation_via_script() {$/;"	f
+tmux_echo	tmux/.tmux/plugins/tpm/scripts/helpers/tmux_echo_functions.sh	/^tmux_echo() {$/;"	f
+tmux_version_int	tmux/.tmux/plugins/tpm/scripts/check_tmux_version.sh	/^tmux_version_int() {$/;"	f
+tpm_path	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^tpm_path() {$/;"	f
+tpm_path_set	tmux/.tmux/plugins/tpm/tpm	/^tpm_path_set() {$/;"	f
+tpm_plugins_list_helper	tmux/.tmux/plugins/tpm/scripts/helpers/plugin_functions.sh	/^tpm_plugins_list_helper() {$/;"	f
+transform	vim/.vim/bundle/vim-startify/autoload/startify.vim	/^function s:transform(absolute_path)$/;"	f
+u	vim/.vim/bundle/vim-repeat/autoload/repeat.vim	/^    nmap u <Plug>(RepeatUndo)$/;"	m
+unsupported_version_message	tmux/.tmux/plugins/tpm/scripts/check_tmux_version.sh	/^unsupported_version_message() {$/;"	f
+update	tmux/.tmux/plugins/tpm/scripts/update_plugin.sh	/^update() {$/;"	f
+update_all	tmux/.tmux/plugins/tpm/scripts/update_plugin.sh	/^update_all() {$/;"	f
+update_oldfiles	vim/.vim/bundle/vim-startify/plugin/startify.vim	/^function! s:update_oldfiles(file)$/;"	f
+update_plugin_prompt	tmux/.tmux/plugins/tpm/bindings/update_plugins	/^update_plugin_prompt() {$/;"	f
+update_plugins	tmux/.tmux/plugins/tpm/scripts/update_plugin.sh	/^update_plugins() {$/;"	f
+update_tags	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:update_tags(bufno, module, write_mode, queue_mode) abort$/;"	f
+use_raw_list	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        if ["%FILE_LIST_CMD_IS_ABSOLUTE%"]==["1"] set use_raw_list=1$/;"	v
+use_raw_list	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        if ["%PROJECT_ROOT%"]==["."] set use_raw_list=1$/;"	v
+use_raw_list	vim/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        set use_raw_list=0$/;"	v
+verify_tpm_path_permissions	tmux/.tmux/plugins/tpm/scripts/install_plugins.sh	/^verify_tpm_path_permissions() {$/;"	f
+wrap	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:wrap(string,char,type,removed,special)$/;"	f
+wrapreg	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:wrapreg(reg,char,removed,special)$/;"	f
+write_triggered_update_tags	vim/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:write_triggered_update_tags(bufno) abort$/;"	f
+yS	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap yS  <Plug>YSurround$/;"	m
+ySS	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap ySS <Plug>YSsurround$/;"	m
+ySs	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap ySs <Plug>YSsurround$/;"	m
+ys	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap ys  <Plug>Ysurround$/;"	m
+yss	vim/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap yss <Plug>Yssurround$/;"	m

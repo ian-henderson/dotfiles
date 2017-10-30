@@ -1,0 +1,27 @@
+#!/bin/bash
+
+which curl >/dev/null || {
+  echo "curl not found in path..."
+  exit 1
+}
+
+which git >/dev/null || {
+  echo "git not found in path..."
+  exit 1
+}
+
+for BASE_DIR in "${HOME}/.tmux" "${HOME}/.config/tmux"; do
+  PLUGINS_DIR="${BASE_DIR}/plugins"
+
+  if [[ -d "${PLUGINS_DIR}"  ]]; then
+    echo "Updating plugins in ${PLUGINS_DIR}..."
+    for plugin in "${PLUGINS_DIR}/"*; do
+      if [[ -d "${plugin}/.git"  ]]; then
+        echo "Plugin: ${plugin}..."
+        cd "${plugin}"
+        git pull
+      fi
+    done
+  fi
+done
+
