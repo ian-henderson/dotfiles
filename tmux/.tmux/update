@@ -10,13 +10,13 @@ which git >/dev/null || {
   exit 1
 }
 
-for BASE_DIR in "${HOME}/.tmux" "${HOME}/.config/tmux"; do
+for BASE_DIR in "${HOME}/.tmux"; do
   PLUGINS_DIR="${BASE_DIR}/plugins"
 
-  if [[ -d "${PLUGINS_DIR}"  ]]; then
+  if [[ -d "${PLUGINS_DIR}" ]]; then
     echo "Updating plugins in ${PLUGINS_DIR}..."
-    for plugin in "${PLUGINS_DIR}/"*; do
-      if [[ -d "${plugin}/.git"  ]]; then
+    for plugin in ${PLUGINS_DIR}/*; do
+      if [[ -e "${plugin}/.git" ]]; then
         echo "Plugin: ${plugin}..."
         cd "${plugin}"
         git pull
